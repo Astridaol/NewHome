@@ -56,3 +56,37 @@ body {
   align-items: center;
   gap: 5rem;
 }
+
+@media (max-width: 768px) {
+  body {
+    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/171/923/original/bgmobile.jpg?1754682407");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    width: 310px;
+    height: 500px;
+  }
+  .card {
+    height: 100%;
+    width: 100%;
+  }
+
+  .front {
+    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/171/730/original/Door1.jpg?1754424288);
+    background-size: cover;
+  }
+
+  .back {
+    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/171/731/original/Door2.jpg?1754424292);
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+  }
+}
